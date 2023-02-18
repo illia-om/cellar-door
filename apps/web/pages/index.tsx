@@ -1,10 +1,11 @@
-import { Button } from "ui";
+import { Text } from "@cellar-door/ui";
 
 export default function Web() {
   return (
     <div>
-      <h1>Web</h1>
-      <Button />
+      <Text>my name is illia</Text>
+      <Text>and this is my first take</Text>
+      <Text>on typography</Text>
     </div>
   );
 }
