@@ -44,6 +44,7 @@ importers:
   apps/web:
     specifiers:
       '@babel/core': ^7.0.0
+      '@cellar-door/ui': workspace:*
       '@next/font': ^13.1.6
       '@types/node': ^17.0.12
       '@types/react': ^18.0.22
@@ -55,13 +56,12 @@ importers:
       react-dom: 18.2.0
       tsconfig: workspace:*
       typescript: ^4.5.3
-      ui: workspace:*
     dependencies:
+      '@cellar-door/ui': link:../../packages/ui
       '@next/font': 13.1.6
       next: 13.1.6_7a6ce7c903601ca00e748dc002e0c97f
       react: 18.2.0
       react-dom: 18.2.0_react@18.2.0
-      ui: link:../../packages/ui
     devDependencies:
       '@babel/core': 7.20.12
       '@types/node': 17.0.45
